@@ -5,9 +5,6 @@ func moonsOfJupiter() {
 moonsOfJupiter()
 
 
-// planetDescription, take 1
-// The bit of code below is commented out, since we iterate on this definition of planetDescription() below.
-/*
 func planetDescription(planet: String) {
     print("There are 67 moons orbiting \(planet).")
 }
@@ -17,27 +14,28 @@ planetDescription("Jupiter")
 var planet = "Mars"
 
 planetDescription(planet)
-*/
 
-
-func greet(name: String, greeting: String) {
-    print("\(greeting), \(name)!")
-}
-
-
-func planetDescription(planet: String, numberOfMoons: Int) {
+func planetDescription2(planet: String, numberOfMoons: Int) {
     print("There are \(numberOfMoons) moons orbiting \(planet)")
 }
 
-// This line of code gives an error.
-// Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
+planetDescription2("Earth", numberOfMoons: 1)
+//Earth needs a rule to fix plural moons to singular moon
+//order of argument makes a difference
+//cannot var planet anymore, is re-declaration
+planet = "Venus"
+print(planet)
 
-planetDescription("Jupiter", numberOfMoons: 67)
+planetDescription2(planet, numberOfMoons: 0)
 
-var planet = "Jupiter"
-var moons = 67
-planetDescription(planet, numberOfMoons: moons)
-planet = "Mars"
-moons = 2
-planetDescription(planet, numberOfMoons: moons)
+planet = "Saturn"
+var moons = 62
+
+func planetDescription3(planet: String, moons: Int) {
+    print("\(planet) has \(moons) orbiting around it.")
+}
+
+planetDescription3(planet, moons: moons)
+//have to remember to call 2nd part of argument
+
+
