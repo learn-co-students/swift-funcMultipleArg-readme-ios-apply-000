@@ -41,3 +41,5 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+planetDescription("Earth", numberOfMoons: 1)
