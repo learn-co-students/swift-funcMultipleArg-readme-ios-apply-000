@@ -1,9 +1,9 @@
 func moonsOfJupiter() {
-    print("There are 67 moons orbiting Jupiter.")
+    let moonsJupiter = 67
+    print("There are \(moonsJupiter) moons orbiting Jupiter.")
 }
 
 moonsOfJupiter()
-
 
 // planetDescription, take 1
 // The bit of code below is commented out, since we iterate on this definition of planetDescription() below.
@@ -31,7 +31,7 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 
 // This line of code gives an error.
 // Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
+// planetDescription("Jupiter", 67)
 
 planetDescription("Jupiter", numberOfMoons: 67)
 
@@ -41,3 +41,15 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+
+planetDescription("Mercury", numberOfMoons: 0)
+planetDescription("Venus", numberOfMoons: 0)
+planetDescription("Earth", numberOfMoons: 1)
+planetDescription("Mars", numberOfMoons: 2)
+planetDescription("Jupiter", numberOfMoons: 67)
+planetDescription("Saturn", numberOfMoons: 62)
+planetDescription("Uranus", numberOfMoons: 27)
+planetDescription("Neptune", numberOfMoons: 14)
+planetDescription("Pluto", numberOfMoons: 5)
+
