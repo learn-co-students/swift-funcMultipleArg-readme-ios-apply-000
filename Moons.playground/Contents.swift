@@ -41,3 +41,21 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+
+//my own examples
+func planetSizeAndColor(planetName: String, distance: Double) {
+    print("\(planetName) is \(distance) AU from the sun!")
+}
+
+var planetName = "Mercury"
+var planetDistance = 0.39
+
+planetSizeAndColor(planetName, distance: planetDistance)
+
+planetName = "Venus"
+planetDistance = 0.723
+
+planetSizeAndColor(planetName, distance: planetDistance)
+
+
