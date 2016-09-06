@@ -31,7 +31,7 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 
 // This line of code gives an error.
 // Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
+//planetDescription("Jupiter", numberOfMoons: 67)
 
 planetDescription("Jupiter", numberOfMoons: 67)
 
@@ -41,3 +41,44 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+func planetContinents(planet: String, numberOfContinents: Int) {
+    print("There are \(numberOfContinents) continents on planet \(planet)")
+}
+
+planetContinents("Earth", numberOfContinents: 7)
+
+func theBestFunction(externalNameForFirst firstparameterName: String, secondParameterName: String) {
+    print(firstparameterName)
+    print(secondParameterName)
+    
+}
+
+theBestFunction(externalNameForFirst: "one", secondParameterName: "two")
+
+func secondBestFunction(firstparameterName: String, _ secondParameterName: String) {
+    print(firstparameterName)
+    print(secondParameterName)
+    
+}
+
+secondBestFunction("hi", "ok")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
