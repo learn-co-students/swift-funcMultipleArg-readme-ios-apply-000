@@ -31,13 +31,22 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 
 // This line of code gives an error.
 // Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
+planetDescription("Jupiter", numberOfMoons: 67)
 
-planetDescription(planet: "Jupiter", numberOfMoons: 67)
+planetDescription("Jupiter", numberOfMoons: 67)
 
 var planet = "Jupiter"
 var moons = 67
-planetDescription(planet: planet, numberOfMoons: moons)
+planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
-planetDescription(planet: planet, numberOfMoons: moons)
+planetDescription(planet, numberOfMoons: moons)
+
+func theBestFunction( firstParameterName: String, _ secondParameterName: String, _ thirdParameterName: String, _ fourthParameterName: String) {
+    
+    print(firstParameterName)
+    print(secondParameterName)
+    print(thirdParameterName)
+    print(fourthParameterName)
+    
+}
