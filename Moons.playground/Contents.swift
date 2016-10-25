@@ -41,3 +41,25 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+func theBestFunction(firstParameterName: String, secondParameterName: String) {
+    print("\(firstParameterName),\(secondParameterName)")
+}
+theBestFunction(firstParameterName: "Brick", secondParameterName: "Oven")
+
+func theBestFunction(_ firstParameterName: String, _ secondParameterName: String, _ thirdParameterName: String, _ fourthParameterName: String ) {
+    print(firstParameterName)
+    print(secondParameterName)
+    print(thirdParameterName)
+    print(fourthParameterName)
+}
+
+
+theBestFunction("Hello", "To", "you","Marty")
+func TheBestFunction(_ first: String, _ second: String, _ third: String, _ fourth: String) {
+    print(first)
+    print(second)
+    print(third)
+    print(fourth)
+}
+TheBestFunction("hi", "my" , "name", "is")
