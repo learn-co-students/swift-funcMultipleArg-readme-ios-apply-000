@@ -29,10 +29,6 @@ func planetDescription(planet: String, numberOfMoons: Int) {
     print("There are \(numberOfMoons) moons orbiting \(planet)")
 }
 
-// This line of code gives an error.
-// Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
-
 planetDescription(planet: "Jupiter", numberOfMoons: 67)
 
 var planet = "Jupiter"
