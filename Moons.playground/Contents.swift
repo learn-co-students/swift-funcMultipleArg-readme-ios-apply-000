@@ -7,7 +7,7 @@ moonsOfJupiter()
 
 // planetDescription, take 1
 // The bit of code below is commented out, since we iterate on this definition of planetDescription() below.
-/*
+
 func planetDescription(planet: String) {
     print("There are 67 moons orbiting \(planet).")
 }
@@ -17,7 +17,7 @@ planetDescription(planet: "Jupiter")
 var planet = "Mars"
 
 planetDescription(planet: planet)
-*/
+
 
 
 func greet(name: String, greeting: String) {
@@ -35,7 +35,7 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 
 planetDescription(planet: "Jupiter", numberOfMoons: 67)
 
-var planet = "Jupiter"
+var _planet = "Jupiter"
 var moons = 67
 planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
