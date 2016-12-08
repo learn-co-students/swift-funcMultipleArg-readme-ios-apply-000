@@ -4,7 +4,6 @@ func moonsOfJupiter() {
 
 moonsOfJupiter()
 
-
 // planetDescription, take 1
 // The bit of code below is commented out, since we iterate on this definition of planetDescription() below.
 /*
