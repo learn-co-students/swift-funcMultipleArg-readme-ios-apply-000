@@ -41,3 +41,31 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+func starDescription(galaxy:String, numberOfAsteroids: Int) {
+    print ("There are \(numberOfAsteroids) planets orbiting in the \(galaxy) system") }
+    starDescription(galaxy: "Solar" , numberOfAsteroids: 199)
+
+func theBestFunction(firstParameterName: String, secondParameterName: String) {
+
+    // function body here
+    
+    // firstParameterName and secondParameterName refer to the argument values for the first and second parameters
+    
+}
+
+theBestFunction(firstParameterName: "Brick", secondParameterName: "Oven")
+
+
+func theBestFunction(_ firstParameterName: String, _ secondParameterName: String, _ thirdParameterName: String, _ fourthParameterName: String) {
+    
+    print(firstParameterName)
+    print(secondParameterName)
+    print(thirdParameterName)
+    print(fourthParameterName)
+    
+}
+
+func theBestFunction (_ firstParameterName:String, _ secondParameterName:String, _thirdParameterName:String, _ fourthParameterName:String) {
+
+}
