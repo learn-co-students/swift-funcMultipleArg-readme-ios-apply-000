@@ -41,3 +41,22 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+
+planet = "Hoth"
+moons = 250
+planetDescription(planet: planet, numberOfMoons: moons)
+
+
+func testExternalName(planetName: String, _ personName: String){
+    print(planetName)
+    print(personName)
+}
+
+var x = "Tatooine"
+var y = "Luke Skywalker"
+testExternalName(planetName: x, y)
+
+
+
+
