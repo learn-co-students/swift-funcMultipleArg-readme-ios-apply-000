@@ -41,3 +41,21 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+// Own Code
+
+func championDescription(champ: String, ability: Int) {
+    print("The champion \(champ) has \(ability) abilites")
+}
+
+championDescription(champ: "yasuo", ability: 4)
+championDescription(champ: "Teemo", ability: 0)
+
+// One more
+
+func iAmTooSleepy(mood: String, hours: Int) {
+    print("I am \(mood) because i have had \(hours) hours of sleep tonight")
+}
+
+iAmTooSleepy(mood: "mad", hours: 0)
+iAmTooSleepy(mood: "really tired", hours: 1)
