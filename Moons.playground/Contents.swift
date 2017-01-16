@@ -17,7 +17,41 @@ planetDescription(planet: "Jupiter")
 var planet = "Mars"
 
 planetDescription(planet: planet)
+ 
 */
+
+var other = "mars"
+
+
+func testTwo(planet: String) {
+    print("How many moons orbit \(planet)?")
+}
+
+testTwo(planet: other)
+
+testTwo(planet: "Jupiter")
+testTwo(planet: "Saturn")
+
+
+
+func test() {
+    let planet = "Jupiter"
+    print("There are 67 moons orbiting planet \(planet)")
+}
+
+test()
+
+func testThree(planet: String, moons: Int) {
+    print("There are \(moons) moons that orbit \(planet)")
+}
+
+
+testThree(planet: "Mars", moons: 2)
+testThree(planet: "Jupiter", moons: 67)
+
+
+
+
 
 
 func greet(name: String, greeting: String) {
@@ -33,11 +67,8 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 // Uncomment it to see what the error is!
 //planetDescription("Jupiter", 67)
 
-planetDescription(planet: "Jupiter", numberOfMoons: 67)
+
 
 var planet = "Jupiter"
 var moons = 67
-planetDescription(planet: planet, numberOfMoons: moons)
-planet = "Mars"
-moons = 2
-planetDescription(planet: planet, numberOfMoons: moons)
+
