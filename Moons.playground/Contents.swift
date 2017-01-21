@@ -40,4 +40,4 @@ var moons = 67
 planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
-planetDescription(planet: planet, numberOfMoons: moons)
+planetDescription(planet: "Mars", numberOfMoons: 2)
