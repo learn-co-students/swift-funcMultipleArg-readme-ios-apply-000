@@ -41,3 +41,34 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+
+
+// Burak
+
+func sayHelloToPerson(to person: String,Konu desc:String )
+{
+
+print("Hello \(person)!")
+
+}
+sayHelloToPerson(to: "Burak",Konu: "IOS Development")
+
+let callText = " Burak 2 "
+sayHelloToPerson(to: callText, Konu: "IOS Development")
+
+// Parameter Values
+
+func describe(planet: String, withMoons moons:Int=0)
+{
+ 
+    print("The Planet \(planet) has \(moons) moons.")
+
+
+}
+
+describe(planet: "Earth", withMoons: 1)
+
+describe(planet: "BurakLand")
+
+
