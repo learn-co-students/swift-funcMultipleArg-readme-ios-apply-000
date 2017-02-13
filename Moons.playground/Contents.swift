@@ -29,9 +29,6 @@ func planetDescription(planet: String, numberOfMoons: Int) {
     print("There are \(numberOfMoons) moons orbiting \(planet)")
 }
 
-// This line of code gives an error.
-// Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
 
 planetDescription(planet: "Jupiter", numberOfMoons: 67)
 
@@ -41,3 +38,16 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+planetDescription(planet: "Earth", numberOfMoons: 1)
+
+func theBestFunction(_ firstParameterName: String,_ secondParameterName: String,_ thirdParameterName: String,_ fourthParameterName: String) {
+    
+    print(firstParameterName)
+    print(secondParameterName)
+    print(thirdParameterName)
+    print(fourthParameterName)
+    
+}
+
+theBestFunction("G", "RE", "A", "T!")
