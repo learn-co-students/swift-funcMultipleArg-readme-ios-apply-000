@@ -20,6 +20,12 @@ planetDescription(planet: planet)
 */
 
 
+func planetType(planet: String, numberOfMoon: Int) {
+   print ("There are \(numberOfMoon) moons orbiting \(planet)")
+}
+planetType (planet: "Jupiter", numberOfMoon: 67)
+
+
 func greet(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
@@ -41,3 +47,21 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+moonsOfJupiter()
+
+planetDescription(planet: "Mars", numberOfMoons: 2)
+
+
+func theBestFunction(_ firstParameterName: String, _ secondParameterName: String, _ thirdParameterName: String, _ fourthParameterName: String) {
+    
+    print(firstParameterName)
+    print(secondParameterName)
+    print(thirdParameterName)
+    print(fourthParameterName)
+    
+}
+theBestFunction("Hello", "To", "You", "Marty")
+
+
+
