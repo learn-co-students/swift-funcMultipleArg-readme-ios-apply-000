@@ -1,0 +1,16 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+var str = "Hello, playground"
+
+
+
+
+func letsWelcome(thisPerson person: String, ofAge age: Int, withGreeting greeting: String) -> String {
+    return "Lets welcome \(person) age \(age) by saying \(greeting)"
+}
+
+let greetingOne = letsWelcome(thisPerson: "John", ofAge: 26, withGreeting: "Hello John!")
+
+print (greetingOne)
