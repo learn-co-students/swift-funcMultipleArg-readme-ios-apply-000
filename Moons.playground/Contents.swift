@@ -4,7 +4,6 @@ func moonsOfJupiter() {
 
 moonsOfJupiter()
 
-
 // planetDescription, take 1
 // The bit of code below is commented out, since we iterate on this definition of planetDescription() below.
 /*
@@ -29,8 +28,7 @@ func planetDescription(planet: String, numberOfMoons: Int) {
     print("There are \(numberOfMoons) moons orbiting \(planet)")
 }
 
-// This line of code gives an error.
-// Uncomment it to see what the error is!
+
 //planetDescription("Jupiter", 67)
 
 planetDescription(planet: "Jupiter", numberOfMoons: 67)
