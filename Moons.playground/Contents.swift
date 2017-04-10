@@ -41,3 +41,9 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+func intresting_take(_ doh:String, _ moh:Int){
+    print("\(doh) & \(moh)")
+}
+
+intresting_take("Yo", 12)
