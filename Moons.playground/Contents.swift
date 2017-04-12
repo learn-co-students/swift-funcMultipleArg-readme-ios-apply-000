@@ -32,6 +32,7 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 // This line of code gives an error.
 // Uncomment it to see what the error is!
 //planetDescription("Jupiter", 67)
+// it is missing the :planet)
 
 planetDescription(planet: "Jupiter", numberOfMoons: 67)
 
@@ -41,3 +42,14 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+func theBestFunction(_ firstParameterName: String, _ secondParameterName: String, _ thirdParameterName: String, _ fourthParameterName: String) {
+    
+    print(firstParameterName)
+    print(secondParameterName)
+    print(thirdParameterName)
+    print(fourthParameterName)
+    
+}
+
+theBestFunction("hi", "how", "are", "you")
